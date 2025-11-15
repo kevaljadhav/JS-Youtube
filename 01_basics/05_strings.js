@@ -50,5 +50,3 @@ console.log(url.replace('20%','-'));
 
 console.log(url.includes('keval'));
 console.log(url.includes('anyone'));
-
-
