@@ -6,7 +6,7 @@ const repoCount = 50
 console.log(`hello My name is ${name} and my repo count is ${repoCount}`);
 
 
-const gamename = new String('keval jadhav')
+const gamename = new String('keval-jadhav')
 
 
 // console.log(gamename[0]);
@@ -50,3 +50,11 @@ console.log(url.replace('20%','-'));
 
 console.log(url.includes('keval'));
 console.log(url.includes('anyone'));
+
+console.log(gamename.split('-'));
+
+
+
+
+
+
