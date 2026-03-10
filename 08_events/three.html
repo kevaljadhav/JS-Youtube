@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+
+<body>
+
+<h1>Chai aur Javascript</h1>
+
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+
+</body>
+
+<script>
+
+let Interval; 
+
+const sayDate = function(str){
+    console.log(str, Date.now());
+}
+
+document.querySelector('#start').addEventListener('click', function(){
+    Interval = setInterval(sayDate,1000,"hello keval")
+})
+
+document.querySelector('#stop').addEventListener('click', function(){
+    clearInterval(Interval)
+})
+
+</script>
+
+</html>
